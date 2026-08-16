@@ -1,6 +1,6 @@
 describe('Scenario 1: Verify User Login Functionality on OrangeHRM', () => {
     beforeEach(() => {
-        cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+        cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login') // Visit the login page before each test
     })
     it('TC-01-Verify login with valid username and valid password', () => { 
         cy.get('[name="username"]').type('Admin') 
@@ -85,5 +85,6 @@ describe('Scenario 1: Verify User Login Functionality on OrangeHRM', () => {
         cy.get('.oxd-button').click()
         cy.get('.orangehrm-login-slot').should('contain', 'Invalid credentials')
     })
+
 
 })
