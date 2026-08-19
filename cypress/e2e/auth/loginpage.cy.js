@@ -86,5 +86,4 @@ describe('Scenario 1: Verify User Login Functionality on OrangeHRM', () => {
         cy.get('.orangehrm-login-slot').should('contain', 'Invalid credentials')
     })
 
-
 })

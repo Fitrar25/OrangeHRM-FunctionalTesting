@@ -1,0 +1,13 @@
+{
+  "validUsername": "Admin",
+  "validPassword": "admin123",
+  "invalidUsername": "invalidUser",
+  "invalidPassword": "invalidPassword",
+  "empty": "",
+  "caseSensitiveUsername": "AdMiN",
+  "caseSensitivePassword": "AdMiN123",
+  "errorMessage": "Invalid credentials",
+  "requiredFieldMessage": "Required",
+  "usernameLeadingSpace": " Admin",
+  "passwordTrailingSpace": "admin123 "
+}
