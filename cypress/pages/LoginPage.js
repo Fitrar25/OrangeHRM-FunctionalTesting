@@ -50,6 +50,7 @@ class LoginPage {
         .find('.oxd-input-field-error-message')
         .should('have.text', expectedMessage);
     }
+
 }
 
 export default new LoginPage()
